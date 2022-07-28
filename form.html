@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+<meta charset="utf-8">
+<title>Atividade Formulário</title>
+
+    </head>
+
+<body>
+    <form action="">
+        <label for="nome">Insira seu Nome</label>
+        <div>
+            <input type="text" placeholder="Nome..." id="nome" name="nome" required>
+        </div>
+        
+        <label for="email">Insira seu E-mail</label>
+        <div>
+            <input type="text" placeholder="E-mail..." id="email" name="email" required>
+        </div>
+        
+        <label for="senha">Crie uma senha</label>
+        <div>
+            <input type="password" placeholder="Senha..." id="senha" name="senha" required>
+        </div>
+        
+        <label for="senhaC">Confirme sua senha</label>
+        <div>
+            <input type="password" placeholder="Confirmar Senha..." id="senhaC" name="senhaC" required>
+        </div>
+        
+
+        <label for="modulo">Escolha seu módulo</label>
+        <div>
+            <select id="modulo" required>
+                <option value="">Módulo...</option>
+                <option value="m1">M1</option>
+                <option value="m2">M2</option>
+                <option value="m3">M3</option>
+                <option value="m4">M4</option>
+                <option value="m5">M5</option>
+                <option value="m6">M6</option>
+                <option value="m7">M7</option>
+                <option value="m8">M8</option>
+            </select>
+        </div>
+        
+        <label for="motivo">Descreva sua motivação para participar do evento</label>
+        <div>
+            <textarea 
+                placeholder="Digite aqui..." 
+                cols="30" 
+                rows="10"
+                id="motivo"
+                name="motivo"
+                required>
+            </textarea>
+        </div>
+        
+        <label for="">Deseja ser atualizado via E-mail?</label>
+        <div>
+            <label for="sim">Sim</label>
+            <input type="radio" name="att" value="sim" id="sim" required>
+        </div>
+
+        <div>
+            <label for="nao">Não</label>
+            <input type="radio" name="att" value="nao" id="nao" required>
+        </div>
+
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+</body>
