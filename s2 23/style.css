@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    padding: 22px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.menu h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.article-container {
+    max-width: 60%; 
+    margin-left: 161px;
+    margin-top: 47px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    font-family: 'Inter', sans-serif;
+}
+
+.article-container article {
+    width: 287px;
+    height: 343px;
+}
+
+.article-container article h2 {
+    font-size: 16px;
+}
+
+.article-container article main p {
+    margin-top: 16px;
+    font-size: 12px;
+}
+
+.article-container article footer {
+    margin-top: 16px;
+}
+
+.article-container article footer ul {
+    display: flex;
+    list-style: none;
+    gap: 7px;
+}
+
+.article-container article footer ul li {
+    padding: 4px;
+    background-color: #F6F6F6;
+    color: #343A40;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.aside-container {
+    max-width: 30%; 
+    margin-top: 47px;
+    margin-left: 82px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    font-family: 'Inter', sans-serif;
+}
+
+.aside-container section h1 {
+    font-size: 18px;
+}
+
+.aside-container section div {
+    display: flex;
+    margin-top: 25px;
+    height: 58px;
+
+}
+
+.aside-container section div h2 {
+    margin-left: 5px;
+    font-size: 12px;
+}
